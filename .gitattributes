@@ -1,0 +1,6 @@
+# Archived evidence must retain its original bytes on every platform.
+data/** -text
+prototype/knowledge_graph/** -text
+*.pdf binary
+*.png binary
+*.docx binary

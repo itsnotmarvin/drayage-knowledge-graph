@@ -1,0 +1,368 @@
+{
+  "type": "FeatureCollection",
+  "name": "APM Terminals Elizabeth",
+  "schema_version": "1.1-verified-route-nodes-with-approaches",
+  "status": "canonical_verified_physical_graph_with_candidate_directional_approach",
+  "coordinate_crs": "EPSG:4326",
+  "feature_count": 10,
+  "source_ids": [
+    "apm_directions",
+    "njogis_road_centerlines_2026_07_26",
+    "google_maps_route_observation_2026_07_31"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1775120831099,
+          40.6708416045937
+        ]
+      },
+      "properties": {
+        "node_id": "node_path_a_turnpike_sb_exit13a",
+        "node_type": "route_access_node",
+        "name": "FR NJ TURNPIKE SB TO NJ 81 NB",
+        "path_ids": [
+          "path_a_exit13a_to_apm"
+        ],
+        "approach_ids": [
+          "approach_a_turnpike_sb"
+        ],
+        "incident_edge_ids": [
+          "edge_a_exit13a_connector"
+        ],
+        "source_ids": [
+          "apm_directions",
+          "njogis_road_centerlines_2026_07_26"
+        ],
+        "source_feature_ids": [
+          354508,
+          40708
+        ],
+        "coordinate_method": "exact_endpoint_equality",
+        "source_trace_complete": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1824480609753,
+          40.6636843947186
+        ]
+      },
+      "properties": {
+        "node_id": "node_a_nb_turnpike_exit13a",
+        "node_type": "route_access_node",
+        "name": "NJ Turnpike northbound Exit 13A ramp start",
+        "path_ids": [
+          "path_a_exit13a_to_apm"
+        ],
+        "approach_ids": [
+          "approach_a_turnpike_nb"
+        ],
+        "incident_edge_ids": [
+          "edge_a_nb_turnpike_exit"
+        ],
+        "source_ids": [
+          "njogis_road_centerlines_2026_07_26"
+        ],
+        "source_feature_ids": [
+          82726,
+          593
+        ],
+        "coordinate_method": "exact_endpoint_equality",
+        "source_trace_complete": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1793983127283,
+          40.6674594445013
+        ]
+      },
+      "properties": {
+        "node_id": "node_a_nb_turnpike_state_ramp_transition",
+        "node_type": "jurisdiction_transition_node",
+        "name": "Turnpike authority ramp transitions to state ramp system",
+        "path_ids": [
+          "path_a_exit13a_to_apm"
+        ],
+        "approach_ids": [
+          "approach_a_turnpike_nb"
+        ],
+        "incident_edge_ids": [
+          "edge_a_nb_turnpike_exit",
+          "edge_a_nb_state_ramps_to_north_ave"
+        ],
+        "source_ids": [
+          "njogis_road_centerlines_2026_07_26"
+        ],
+        "source_feature_ids": [
+          366856,
+          198235
+        ],
+        "coordinate_method": "exact_endpoint_equality",
+        "source_trace_complete": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.18179779279,
+          40.6710852588052
+        ]
+      },
+      "properties": {
+        "node_id": "node_a_nb_joins_north_ave",
+        "node_type": "approach_merge_node",
+        "name": "Turnpike northbound approach joins the North Avenue corridor",
+        "path_ids": [
+          "path_a_exit13a_to_apm"
+        ],
+        "approach_ids": [
+          "approach_a_turnpike_nb"
+        ],
+        "incident_edge_ids": [
+          "edge_a_nb_state_ramps_to_north_ave",
+          "edge_ab_shared_north_ave_to_all_merge"
+        ],
+        "source_ids": [
+          "njogis_road_centerlines_2026_07_26"
+        ],
+        "source_feature_ids": [
+          222590,
+          372772
+        ],
+        "coordinate_method": "exact_endpoint_equality",
+        "source_trace_complete": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1941020913149,
+          40.6799845147686
+        ]
+      },
+      "properties": {
+        "node_id": "node_path_b_us1_south_access",
+        "node_type": "route_access_node",
+        "name": "US Highway 1 Express",
+        "path_ids": [
+          "path_b_us1_9_to_apm"
+        ],
+        "incident_edge_ids": [
+          "edge_b_us1_south"
+        ],
+        "source_ids": [
+          "apm_directions",
+          "njogis_road_centerlines_2026_07_26"
+        ],
+        "source_feature_ids": [
+          313407,
+          301684
+        ],
+        "coordinate_method": "exact_endpoint_equality",
+        "source_trace_complete": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.197175870654,
+          40.6774213279391
+        ]
+      },
+      "properties": {
+        "node_id": "node_path_b_north_avenue_entry",
+        "node_type": "route_turn_node",
+        "name": "US Highway 1 Express / North Avenue East",
+        "path_ids": [
+          "path_b_us1_9_to_apm"
+        ],
+        "incident_edge_ids": [
+          "edge_b_us1_south",
+          "edge_b_north_avenue_to_merge"
+        ],
+        "source_ids": [
+          "apm_directions",
+          "njogis_road_centerlines_2026_07_26"
+        ],
+        "source_feature_ids": [
+          301684,
+          21853
+        ],
+        "coordinate_method": "exact_endpoint_equality",
+        "source_trace_complete": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1785517799026,
+          40.6699210980933
+        ]
+      },
+      "properties": {
+        "node_id": "node_paths_merge_north_avenue",
+        "node_type": "path_merge_node",
+        "name": "North Avenue East / North Avenue",
+        "path_ids": [
+          "path_a_exit13a_to_apm",
+          "path_b_us1_9_to_apm"
+        ],
+        "approach_ids": [
+          "approach_a_turnpike_sb",
+          "approach_a_turnpike_nb"
+        ],
+        "incident_edge_ids": [
+          "edge_a_exit13a_connector",
+          "edge_ab_shared_north_ave_to_all_merge",
+          "edge_b_north_avenue_to_merge",
+          "edge_shared_north_avenue"
+        ],
+        "source_ids": [
+          "apm_directions",
+          "njogis_road_centerlines_2026_07_26"
+        ],
+        "source_feature_ids": [
+          248025,
+          350133,
+          375671
+        ],
+        "coordinate_method": "exact_endpoint_equality",
+        "source_trace_complete": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.166443767583,
+          40.6652301701734
+        ]
+      },
+      "properties": {
+        "node_id": "node_north_avenue_mclester",
+        "node_type": "road_intersection",
+        "name": "North Avenue East / McLester Street",
+        "path_ids": [
+          "path_a_exit13a_to_apm",
+          "path_b_us1_9_to_apm"
+        ],
+        "approach_ids": [
+          "approach_a_turnpike_sb",
+          "approach_a_turnpike_nb"
+        ],
+        "incident_edge_ids": [
+          "edge_shared_north_avenue",
+          "edge_shared_mclester"
+        ],
+        "source_ids": [
+          "apm_directions",
+          "njogis_road_centerlines_2026_07_26"
+        ],
+        "source_feature_ids": [
+          144184,
+          433606
+        ],
+        "coordinate_method": "exact_endpoint_equality",
+        "source_trace_complete": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.160114111665,
+          40.674167142869
+        ]
+      },
+      "properties": {
+        "node_id": "node_mclester_tripoli",
+        "node_type": "road_intersection",
+        "name": "McLester Street / Tripoli Street",
+        "path_ids": [
+          "path_a_exit13a_to_apm",
+          "path_b_us1_9_to_apm"
+        ],
+        "approach_ids": [
+          "approach_a_turnpike_sb",
+          "approach_a_turnpike_nb"
+        ],
+        "incident_edge_ids": [
+          "edge_shared_mclester",
+          "edge_shared_tripoli_gate"
+        ],
+        "source_ids": [
+          "apm_directions",
+          "njogis_road_centerlines_2026_07_26"
+        ],
+        "source_feature_ids": [
+          320648,
+          374024
+        ],
+        "coordinate_method": "exact_endpoint_equality",
+        "source_trace_complete": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1583229,
+          40.6734498
+        ]
+      },
+      "properties": {
+        "node_id": "node_apm_inbound_gate",
+        "node_type": "terminal_gate_node",
+        "name": "APM Terminals Elizabeth",
+        "path_ids": [
+          "path_a_exit13a_to_apm",
+          "path_b_us1_9_to_apm"
+        ],
+        "approach_ids": [
+          "approach_a_turnpike_sb",
+          "approach_a_turnpike_nb"
+        ],
+        "incident_edge_ids": [
+          "edge_shared_tripoli_gate"
+        ],
+        "terminal_entity_id": "facility_apm_elizabeth",
+        "operator_entity_id": "operator_apm_terminals",
+        "source_ids": [
+          "apm_directions",
+          "google_maps_route_observation_2026_07_31"
+        ],
+        "coordinate_method": "google_maps_route_step_coordinate_observation",
+        "observation_date": "2026-07-31",
+        "observed_route_step_text": [
+          "Turn right",
+          "Continue onto Tripoli St",
+          "Destination will be on the right"
+        ],
+        "observation_url": "https://www.google.com/maps/@40.6734498,-74.1583229,3a,75y,107.83h,90t/data=!3m4!1e1!3m2!1s9gAJHVMjoN_Uk4hVTOP76A!2e0",
+        "source_trace_complete": true
+      }
+    }
+  ]
+}
